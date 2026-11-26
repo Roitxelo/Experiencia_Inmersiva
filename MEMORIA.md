@@ -17,6 +17,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 3 | 26/11/2026 | Concepto de escala reducida y estudio de viabilidad WebXR con React | `docs/analisis_concepto_y_viabilidad.md` |
 | 4 | 26/11/2026 | Opinión de Claude sobre el concepto y opciones para cerrarlo | `docs/debate_concepto_opinion_claude.md` |
 | 5 | 26/11/2026 | Decisiones de Roi y propuesta común del concepto para contrastar con Codex | `docs/propuesta_comun_concepto.md` |
+| 6 | 26/11/2026 | Respuesta de Codex: viabilidad y recorrido recomendado | `docs/debate_concepto_opinion_codex.md` |
 
 ---
 
@@ -106,4 +107,18 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 - Borrador de recorrido en 6 zonas (0–5) donde cada zona da la munición necesaria para la siguiente.
 
 **Pendiente:** contrastar la propuesta con Codex (lista de puntos técnicos en el apartado 4 del documento) y que Roi responda a las preguntas abiertas.
+
+---
+
+## Entrada 6 · 26/11/2026 · Respuesta de Codex a la propuesta común
+
+**Participan:** Roi + Codex. Documento preparado para que Roi y Claude lo revisen.
+
+**Trabajo realizado:** se leyó la propuesta común y la opinión previa de Claude; se consultaron las fuentes actuales de Meta y Poimandres sobre WebXR con React, mandos, física, rendimiento y locomoción. Se escribió `docs/debate_concepto_opinion_codex.md` con respuesta a las seis preguntas técnicas, una propuesta de recorrido de cuatro tramos y decisiones recomendadas. Las fuentes y la fecha de consulta figuran en ese archivo.
+
+**Hallazgos:** el arco con dos manos es programable, pero su comodidad y precisión requieren prueba real en Quest 3; Rapier puede ayudar con pocos objetos físicos, sin convertir todos los puzles en simulaciones. Robot, láseres y teletransporte son técnicamente posibles. La propuesta común usa una tuerca antes de entregarla al jugador y acumula más mecánicas de las que conviene introducir en 10–12 minutos.
+
+**Recomendación, aún pendiente de aprobación de Roi:** mantener taller, máquina visible, arco modular, robot y duración orientativa; empezar con dos puntas de flecha y cuatro tramos conectados. Reservar láseres, portales y puente de hilo para una ampliación. Fijar React + React Three Fiber + React Three XR como base del prototipo y probar física selectiva con Rapier.
+
+**Sincronización:** se comprobó `origin/main` antes de esta entrada; el repositorio local solo tenía por subir el commit `4808d40` de Roi y Claude. La subida del conjunto queda registrada por el estado final de Git de esta sesión.
 

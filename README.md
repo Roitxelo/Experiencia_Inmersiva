@@ -12,6 +12,8 @@ Fase inicial: debate de una experiencia a escala reducida dentro de una habitaci
 
 - `docs/`: enunciado y futura documentación de investigación, diseño y pruebas.
 - [`docs/analisis_concepto_y_viabilidad.md`](docs/analisis_concepto_y_viabilidad.md): estudio provisional de la idea y de WebXR con React.
+- [`docs/propuesta_comun_concepto.md`](docs/propuesta_comun_concepto.md): decisiones de Roi y propuesta de Claude.
+- [`docs/debate_concepto_opinion_codex.md`](docs/debate_concepto_opinion_codex.md): respuesta técnica y recorrido recomendado por Codex, pendiente de debate.
 - `MEMORIA.md`: registro cronológico de decisiones, avances, pruebas e incidencias.
 - Código y recursos: se incorporarán cuando se acuerde la estructura técnica.
 
