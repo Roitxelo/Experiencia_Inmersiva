@@ -17,6 +17,7 @@ Fase de diseño: Roi ha aprobado cuatro objetivos principales para una experienc
 - [`docs/estructura_aprobada.md`](docs/estructura_aprobada.md): cuatro objetivos aprobados y pasos intermedios para debatir.
 - [`docs/cierre_fase_1_para_roi_y_claude.md`](docs/cierre_fase_1_para_roi_y_claude.md): decisiones abiertas y preguntas concretas para cerrar el concepto con Roi y Claude.
 - [`docs/respuesta_roi_y_revision_codex_fase_1.md`](docs/respuesta_roi_y_revision_codex_fase_1.md): respuestas recientes de Roi, riesgos de diseño y preguntas para la siguiente revisión de Claude.
+- [`docs/prompt_para_claude_cierre_fase_1.md`](docs/prompt_para_claude_cierre_fase_1.md): encargo breve para que Claude proponga el cierre del concepto.
 - `MEMORIA.md`: registro cronológico de decisiones, avances, pruebas e incidencias.
 - Código y recursos: se incorporarán cuando se acuerde la estructura técnica.
 

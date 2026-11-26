@@ -21,6 +21,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 7 | 26/11/2026 | Roi aprueba cuatro objetivos y amplía el papel de los pasos intermedios | `docs/estructura_aprobada.md` |
 | 8 | 26/11/2026 | Roi aprueba el salto entre canicas y se prepara el cierre de concepto con Claude | `docs/cierre_fase_1_para_roi_y_claude.md` |
 | 9 | 26/11/2026 | Roi define municiones, robot, canicas y ayudas; Codex revisa dependencias | `docs/respuesta_roi_y_revision_codex_fase_1.md` |
+| 10 | 26/11/2026 | Prompt para Claude y ajuste del efecto de líquido | `docs/prompt_para_claude_cierre_fase_1.md` |
 
 ---
 
@@ -160,4 +161,16 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Trabajo realizado:** se redactó `docs/respuesta_roi_y_revision_codex_fase_1.md`, diferenciando decisiones, propuestas y cuestiones pendientes. Codex planteó reglas para munición y canicas que eviten quedarse sin recursos o atrapado; señaló la necesidad de hacer justa la trampa del robot, de decidir qué sucede si la botella se perfora antes y de comprobar si el recorrido cabe en 10–12 minutos. Se añadieron preguntas concretas para Claude y referencias a pautas técnicas de Meta.
 
 **Pendiente:** revisión de Claude y decisiones de Roi sobre tutorial, puente, láser, recarga, botella, recuperación de canicas y mecanismo final. La comodidad de saltos, agarre, puntería y texto deberá comprobarse en Quest 3.
+
+---
+
+## Entrada 10 · 26/11/2026 · Prompt para Claude y líquido coloreado
+
+**Participan:** Roi + Codex
+
+**Aclaración de Roi:** el líquido que cortocircuita el robot puede tener otro color; no necesita parecer agua transparente.
+
+**Trabajo realizado:** se actualizó `docs/respuesta_roi_y_revision_codex_fase_1.md` para proponer un chorro opaco y estilizado, sin simulación completa de fluido. Se creó `docs/prompt_para_claude_cierre_fase_1.md`, un encargo breve para que Claude proponga un único recorrido coherente, revise fallos y recuperación de recursos, estime la duración y plantee a Roi solo las decisiones imprescindibles.
+
+**Pendiente:** recibir la propuesta de Claude, contrastarla con Roi y cerrar las decisiones antes de redactar el documento final de diseño.
 
