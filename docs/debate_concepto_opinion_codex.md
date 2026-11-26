@@ -6,6 +6,8 @@
 
 **Estado:** recomendación para que Roi y Claude la contrasten. Las decisiones que Roi ya tomó se respetan; las propuestas nuevas no quedan aprobadas por este documento.
 
+**Actualización posterior:** Roi aprobó los cuatro objetivos principales y pidió estudiar láseres, portales e interacciones del taller como pasos intermedios. Esa decisión se recoge en [`estructura_aprobada.md`](estructura_aprobada.md) y sustituye la recomendación de este documento de reservar láseres y portales para una ampliación.
+
 ## Mi posición
 
 La elección del **taller de inventor**, la **máquina visible como destino**, **una sola herramienta lanzadora con munición que cambia las soluciones** y una duración orientativa de **10–12 minutos** forman un concepto sólido. Mantendría esas cuatro decisiones. La ambición debería concentrarse en la escala, en construir el arma con objetos cotidianos y en dos consecuencias físicas muy visibles, como romper una bolsa y detener un robot. Añadir a la vez láseres, espejo, puente de hilo, caída de lámpara, portales y cinco tipos de flecha haría que cada sistema recibiera menos atención y que el recorrido fuera difícil de aprender y probar.

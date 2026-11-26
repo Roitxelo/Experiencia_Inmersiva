@@ -18,6 +18,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 4 | 26/11/2026 | Opinión de Claude sobre el concepto y opciones para cerrarlo | `docs/debate_concepto_opinion_claude.md` |
 | 5 | 26/11/2026 | Decisiones de Roi y propuesta común del concepto para contrastar con Codex | `docs/propuesta_comun_concepto.md` |
 | 6 | 26/11/2026 | Respuesta de Codex: viabilidad y recorrido recomendado | `docs/debate_concepto_opinion_codex.md` |
+| 7 | 26/11/2026 | Roi aprueba cuatro objetivos y amplía el papel de los pasos intermedios | `docs/estructura_aprobada.md` |
 
 ---
 
@@ -121,4 +122,16 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Recomendación, aún pendiente de aprobación de Roi:** mantener taller, máquina visible, arco modular, robot y duración orientativa; empezar con dos puntas de flecha y cuatro tramos conectados. Reservar láseres, portales y puente de hilo para una ampliación. Fijar React + React Three Fiber + React Three XR como base del prototipo y probar física selectiva con Rapier.
 
 **Sincronización:** se comprobó `origin/main` antes de esta entrada; el repositorio local solo tenía por subir el commit `4808d40` de Roi y Claude. La subida del conjunto queda registrada por el estado final de Git de esta sesión.
+
+---
+
+## Entrada 7 · 26/11/2026 · Cuatro objetivos aprobados
+
+**Participan:** Roi + Codex
+
+**Decisión de Roi:** quedan aprobados cuatro objetivos antes de detallar el mapa: (1) buscar piezas, aprender controles y montar el arco; (2) conseguir una segunda munición que abra otra mecánica; (3) detener un robot aspirador que puede patrullar hacia delante y atrás bloqueando la zona final; (4) ascender hasta la máquina y pulsar su botón de una forma especial. Roi quiere estudiar láseres, portales, herramientas del taller y pequeños obstáculos como pasos entre esos objetivos, no relegarlos automáticamente a ampliaciones.
+
+**Trabajo realizado:** se creó `docs/estructura_aprobada.md` como referencia actual del diseño. Distingue objetivos ya aprobados de posibles funciones de los pasos intermedios y de las decisiones que siguen abiertas. Se actualizó `README.md` y se añadió una nota de corrección al debate anterior de Codex para que su recomendación de aplazar láseres y portales no se confunda con el alcance vigente.
+
+**Pendiente:** concretar con Roi y Claude las dos municiones, la función del láser y del portal, la acción final en la máquina y la geometría del mapa. Probar las interacciones principales en Meta Quest 3 antes de prometer una presentación visual definitiva de los portales.
 

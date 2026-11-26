@@ -6,7 +6,7 @@ El enunciado original está en [docs/Reto - Experiencia inmersiva.docx](docs/Ret
 
 ## Estado
 
-Fase inicial: debate de una experiencia a escala reducida dentro de una habitación con muebles gigantes, fabricación de herramientas y un objetivo de recuperación del tamaño. React es un requisito de clase. El alcance y la base técnica siguen pendientes de decidir con Roi.
+Fase de diseño: Roi ha aprobado cuatro objetivos principales para una experiencia a escala reducida en un taller: montar un arco, conseguir una segunda munición, detener un robot aspirador y ascender a la máquina que revierte el tamaño. Los pasos intermedios y el mapa están pendientes de concretar. React es un requisito de clase.
 
 ## Organización
 
@@ -14,6 +14,7 @@ Fase inicial: debate de una experiencia a escala reducida dentro de una habitaci
 - [`docs/analisis_concepto_y_viabilidad.md`](docs/analisis_concepto_y_viabilidad.md): estudio provisional de la idea y de WebXR con React.
 - [`docs/propuesta_comun_concepto.md`](docs/propuesta_comun_concepto.md): decisiones de Roi y propuesta de Claude.
 - [`docs/debate_concepto_opinion_codex.md`](docs/debate_concepto_opinion_codex.md): respuesta técnica y recorrido recomendado por Codex, pendiente de debate.
+- [`docs/estructura_aprobada.md`](docs/estructura_aprobada.md): cuatro objetivos aprobados y pasos intermedios para debatir.
 - `MEMORIA.md`: registro cronológico de decisiones, avances, pruebas e incidencias.
 - Código y recursos: se incorporarán cuando se acuerde la estructura técnica.
 
