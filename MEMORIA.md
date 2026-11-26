@@ -20,6 +20,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 6 | 26/11/2026 | Respuesta de Codex: viabilidad y recorrido recomendado | `docs/debate_concepto_opinion_codex.md` |
 | 7 | 26/11/2026 | Roi aprueba cuatro objetivos y amplía el papel de los pasos intermedios | `docs/estructura_aprobada.md` |
 | 8 | 26/11/2026 | Roi aprueba el salto entre canicas y se prepara el cierre de concepto con Claude | `docs/cierre_fase_1_para_roi_y_claude.md` |
+| 9 | 26/11/2026 | Roi define municiones, robot, canicas y ayudas; Codex revisa dependencias | `docs/respuesta_roi_y_revision_codex_fase_1.md` |
 
 ---
 
@@ -147,4 +148,16 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Trabajo realizado:** se actualizó `docs/estructura_aprobada.md` con esa decisión. Se redactó `docs/cierre_fase_1_para_roi_y_claude.md`: separa lo decidido de seis decisiones de concepto todavía abiertas, presenta dos posibilidades para el final y formula un encargo concreto para que Claude responda sin reabrir los cuatro objetivos ya aprobados. El documento final detallado se redactará más adelante, cuando mapa, mecánicas, objetos y flujo estén cerrados; `MEMORIA.md` seguirá conservando el debate y las decisiones paso a paso.
 
 **Pendiente:** recibir y contrastar la opinión de Claude y las elecciones de Roi sobre municiones, láser, robot, activación de canicas, final y ayudas. Confirmar fecha de entrega y disponibilidad de Quest 3 para pruebas.
+
+---
+
+## Entrada 9 · 26/11/2026 · Nuevas decisiones de Roi y revisión de mecánicas
+
+**Participan:** Roi + Codex. Se prepara la siguiente revisión de Claude.
+
+**Decisiones y propuestas de Roi:** primera munición de agujas; segunda de clavos obtenidos al disparar a los últimos hilos de una bolsa que sobresale de una mesa y crea un alijo infinito al caer. Antes habrá un tutorial guiado de aguja y movimiento y posiblemente un puente de acceso. El láser debe tener una función con sentido. El robot patrulla en línea: un clavo pulsa un falso apagado que lo descontrola; la solución posterior consiste en perforar una botella para que el agua caiga sobre su recorrido y lo cortocircuite. Tras el robot se obtiene una canica que era su fuente de poder y se ve la segunda en una plataforma; lanzar ambas activa el enlace espacial. El botón final debe pulsarse de forma indirecta, con puntería y lógica. Los objetos se resaltan, muestran el nombre mediante una línea fina y permiten inspección voluntaria con descripción breve.
+
+**Trabajo realizado:** se redactó `docs/respuesta_roi_y_revision_codex_fase_1.md`, diferenciando decisiones, propuestas y cuestiones pendientes. Codex planteó reglas para munición y canicas que eviten quedarse sin recursos o atrapado; señaló la necesidad de hacer justa la trampa del robot, de decidir qué sucede si la botella se perfora antes y de comprobar si el recorrido cabe en 10–12 minutos. Se añadieron preguntas concretas para Claude y referencias a pautas técnicas de Meta.
+
+**Pendiente:** revisión de Claude y decisiones de Roi sobre tutorial, puente, láser, recarga, botella, recuperación de canicas y mecanismo final. La comodidad de saltos, agarre, puntería y texto deberá comprobarse en Quest 3.
 

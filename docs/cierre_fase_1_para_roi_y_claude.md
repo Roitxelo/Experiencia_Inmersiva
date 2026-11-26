@@ -4,6 +4,8 @@
 
 **Estado:** documento de trabajo para cerrar el concepto antes de escribir el diseño definitivo. Las recomendaciones de Codex no sustituyen las decisiones de Roi.
 
+**Actualización:** Roi respondió a los seis puntos. Sus decisiones, preferencias y los casos que aún requieren solución están en [`respuesta_roi_y_revision_codex_fase_1.md`](respuesta_roi_y_revision_codex_fase_1.md). Esta versión anterior se conserva como historial del debate.
+
 ## Lo que ya está decidido
 
 - Experiencia WebXR en Meta Quest 3; React es obligatorio en clase.
