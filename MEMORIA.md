@@ -13,6 +13,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | # | Fecha | Tarea | Archivos |
 |---|-------|-------|----------|
 | 1 | 26/11/2026 | Lectura del enunciado y respuestas a la investigación guiada (Reto 5) | `docs/investigacion/reto5_investigacion_guiada.md` |
+| 2 | 26/11/2026 | Preparación del repositorio y forma de trabajo | `README.md`, `.gitignore`, `MEMORIA.md` |
 
 ---
 
@@ -32,3 +33,17 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 - Para probar sin gafas: Immersive Web Emulator / IWER (ver pregunta 7).
 
 **Estado:** borrador pendiente de revisión por Roi.
+
+---
+
+## Entrada 2 · 26/11/2026 · Preparación del repositorio
+
+**Participan:** Roi + Codex
+
+**Qué se hizo:**
+- Se comprobó que el proyecto está en el repositorio Git interior `Experiencia_Inmersiva/`, cuya rama `main` tiene como remoto `origin` el repositorio de GitHub indicado por Roi. La carpeta contenedora también tiene un repositorio Git, sin commits; se evitará usarlo para este proyecto.
+- Se revisó el enunciado y se actualizó `README.md` con el objetivo mínimo, el estado y la organización del trabajo. Se añadió `.gitignore` para excluir `.DS_Store`.
+- Se guardó el commit `f50b990` y se subió a `origin/main`. El primer intento falló por falta de resolución de `github.com` en el entorno restringido; la subida posterior se completó correctamente.
+- El archivo `docs/investigacion/reto5_investigacion_guiada.md` estaba sin seguimiento durante este trabajo y no se incluyó en ese commit ni se modificó.
+
+**Pendiente de decidir con Roi:** fecha exacta de entrega, tema de la experiencia, si React es requisito obligatorio, disponibilidad de las Meta Quest 3 para pruebas y modo de acceso HTTPS.
