@@ -23,6 +23,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 9 | 26/11/2026 | Roi define municiones, robot, canicas y ayudas; Codex revisa dependencias | `docs/respuesta_roi_y_revision_codex_fase_1.md` |
 | 10 | 26/11/2026 | Prompt para Claude y ajuste del efecto de líquido | `docs/prompt_para_claude_cierre_fase_1.md` |
 | 11 | 26/11/2026 | Recorrido único propuesto por Claude | `docs/recorrido_propuesto_claude.md` |
+| 12 | 26/11/2026 | Decisiones de Roi sobre el recorrido y nuevas opciones (obstáculo de clavos, canicas con arco, péndulo) | `docs/recorrido_propuesto_claude.md` (revisión 1) |
 
 ---
 
@@ -188,4 +189,25 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Comprobaciones:** ningún recurso se pide antes de entregarlo; cada munición se reutiliza al menos dos veces; ningún fallo deja al jugador atascado (munición ilimitada, fundido al punto seguro, botella válida en cualquier orden, canicas recuperables, tres herramientas para el final). Estimación: 9–12,5 minutos, con lista de recortes si se excede.
 
 **Decisiones pendientes de Roi:** final (péndulo u otra opción de Codex), función del láser, canicas disparadas con arco o lanzadas a mano, munición ilimitada o limitada, uno o dos saltos.
+
+---
+
+## Entrada 12 · 26/11/2026 · Decisiones de Roi sobre el recorrido
+
+**Participan:** Roi + Claude
+
+**Decisiones de Roi:**
+1. **Final con péndulo**, con botón grande u objeto pequeño, sin que el objeto pueda caer donde no es.
+2. **Se elimina el láser:** el obstáculo de la zona 3 debe superarse *gracias a* un clavo, pero sin usar el clavo como tapón.
+3. **Canicas disparadas con el arco**, pero de una forma lógica (disparar una esfera con un arco no lo es).
+4. **Munición ilimitada:** proyectiles en un carcaj detrás del hombro; arco y canicas colgados del cinto.
+5. **Un solo salto** con las canicas.
+
+**Trabajo realizado:** Claude actualizó `docs/recorrido_propuesto_claude.md` (revisión 1, apartado 11):
+- Péndulo: plomada pequeña, pulsador de seta grande en una bandeja en forma de embudo que guía la plomada al botón, balanceo lento en línea fija, el botón se ilumina cuando la plomada está encima, y reposición sin límite.
+- Tres alternativas al láser: **balancín de contrapeso** (recomendada; peso del clavo), **peldaños de clavos** (quedarse fijo) y **circuito cortado** (conducir).
+- Tres formas de disparar canicas: **flecha con dedal** (recomendada; el portal se abre donde se clava la flecha), **arco de bodoques** con bolsita en la cuerda y canica pegada con plastilina.
+- Munición, inventario y número de saltos actualizados según lo decidido.
+
+**Pendiente:** que Roi elija el obstáculo de la zona 3 y la forma de disparar las canicas. Sigue sin ser el diseño final.
 
