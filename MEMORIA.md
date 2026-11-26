@@ -15,6 +15,8 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 1 | 26/11/2026 | Lectura del enunciado y respuestas a la investigación guiada (Reto 5) | `docs/investigacion/reto5_investigacion_guiada.md` |
 | 2 | 26/11/2026 | Preparación del repositorio y forma de trabajo | `README.md`, `.gitignore`, `MEMORIA.md` |
 | 3 | 26/11/2026 | Concepto de escala reducida y estudio de viabilidad WebXR con React | `docs/analisis_concepto_y_viabilidad.md` |
+| 4 | 26/11/2026 | Opinión de Claude sobre el concepto y opciones para cerrarlo | `docs/debate_concepto_opinion_claude.md` |
+| 5 | 26/11/2026 | Decisiones de Roi y propuesta común del concepto para contrastar con Codex | `docs/propuesta_comun_concepto.md` |
 
 ---
 
@@ -62,3 +64,46 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Conclusión provisional:** WebXR con React es suficiente para el núcleo propuesto. WebXR no aporta por sí solo modelos, física ni lógica de fabricación; esas partes requieren bibliotecas y desarrollo. React Three Fiber con React Three XR es la opción inicial más directa por el requisito React, pero no se ha elegido definitivamente. La dificultad principal será lograr interacciones creíbles, confort y buen rendimiento dentro del plazo.
 
 **Pendiente:** debatir el concepto con Roi y Claude, decidir habitación y objetivo, confirmar fecha exacta de enero y realizar una prueba pequeña en las Meta Quest 3 antes de cerrar el alcance.
+
+---
+
+## Entrada 4 · 26/11/2026 · Opinión de Claude sobre el concepto
+
+**Participan:** Roi + Claude
+
+**Qué se hizo:** Claude revisó `docs/analisis_concepto_y_viabilidad.md` (Codex) y escribió `docs/debate_concepto_opinion_claude.md` con su opinión y opciones concretas para cerrar el concepto.
+
+**Opinión de Claude:**
+- De acuerdo con la viabilidad y con React Three Fiber + `@react-three/xr`; propone fijar esta ruta ya.
+- Propone incluir física ligera (`@react-three/rapier`) en la prueba de viabilidad.
+- Propone un tirachinas como herramienta central (más fácil que el arco) y dejar el arco como ampliación.
+- Propone recorrido por "islas" con teletransporte y objetos a la altura de la cintura real, por confort y rendimiento.
+- Propone una experiencia corta y pulida de 5–7 minutos.
+
+**Opciones planteadas a Roi (recomendada entre paréntesis):** habitación (taller de un inventor), historia (experimento fallido), obstáculo (robot aspirador), herramienta (tirachinas), duración (5–7 min). Incluye un borrador de recorrido en 4 zonas.
+
+**Pendiente:** que Roi elija las opciones A–E; después, documento de diseño y prueba de viabilidad en Quest 3.
+
+---
+
+## Entrada 5 · 26/11/2026 · Decisiones de Roi y propuesta común del concepto
+
+**Participan:** Roi + Claude
+
+**Decisiones de Roi:**
+- **Espacio:** taller de inventor / aula de tecnología. La decoración es secundaria; lo importante son las zonas interactuables encadenadas tipo puzle, usando objetos de la sala a favor del jugador (romper una bolsa de clavos, tirar una lámpara para hacer rampa…).
+- **Objetivo:** volver a la máquina que revierte el tamaño. La historia de fondo no es prioritaria.
+- **Obstáculos:** algo que mantenga alerta y se pueda apagar (no derrotar): láseres, sensores o robot aspirador. El gato se descarta por difícil de integrar.
+- **Herramienta:** una única herramienta lanzadora (preferencia por el arco frente al tirachinas, abierto a debate). **La munición es la que da el juego.** Otras herramientas solo si mejoran el juego.
+- **Inventos:** objetos científicos como canicas portal, con cuadros de texto que expliquen cómo usarlos y combinarlos.
+- **Duración:** 10–12 minutos orientativos.
+- **Commits:** deben aparecer solo como hechos por Roitxelo, sin coautores de Claude ni Codex.
+
+**Propuesta de Claude** (`docs/propuesta_comun_concepto.md`):
+- Arco viable si la cuerda se dibuja como dos líneas rectas; flechas con **puntas intercambiables** (aguja, clavo, tuerca, clavo + hilo, canica portal). Tirachinas como plan de reserva.
+- Usar láseres (puzle) y robot aspirador con ruta fija y botón de apagado (amenaza móvil); ambos viables.
+- Canicas portal como teletransporte con fundido; fichas de ayuda al apuntar/coger objetos y libreta del inventor.
+- Borrador de recorrido en 6 zonas (0–5) donde cada zona da la munición necesaria para la siguiente.
+
+**Pendiente:** contrastar la propuesta con Codex (lista de puntos técnicos en el apartado 4 del documento) y que Roi responda a las preguntas abiertas.
+
