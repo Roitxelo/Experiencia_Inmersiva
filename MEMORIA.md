@@ -22,6 +22,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 8 | 26/11/2026 | Roi aprueba el salto entre canicas y se prepara el cierre de concepto con Claude | `docs/cierre_fase_1_para_roi_y_claude.md` |
 | 9 | 26/11/2026 | Roi define municiones, robot, canicas y ayudas; Codex revisa dependencias | `docs/respuesta_roi_y_revision_codex_fase_1.md` |
 | 10 | 26/11/2026 | Prompt para Claude y ajuste del efecto de líquido | `docs/prompt_para_claude_cierre_fase_1.md` |
+| 11 | 26/11/2026 | Recorrido único propuesto por Claude | `docs/recorrido_propuesto_claude.md` |
 
 ---
 
@@ -173,4 +174,18 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Trabajo realizado:** se actualizó `docs/respuesta_roi_y_revision_codex_fase_1.md` para proponer un chorro opaco y estilizado, sin simulación completa de fluido. Se creó `docs/prompt_para_claude_cierre_fase_1.md`, un encargo breve para que Claude proponga un único recorrido coherente, revise fallos y recuperación de recursos, estime la duración y plantee a Roi solo las decisiones imprescindibles.
 
 **Pendiente:** recibir la propuesta de Claude, contrastarla con Roi y cerrar las decisiones antes de redactar el documento final de diseño.
+
+---
+
+## Entrada 11 · 26/11/2026 · Recorrido único propuesto por Claude
+
+**Participan:** Roi + Claude
+
+**Trabajo realizado:** Claude leyó `docs/estructura_aprobada.md`, `docs/respuesta_roi_y_revision_codex_fase_1.md` y las entradas 6–10, y redactó `docs/recorrido_propuesto_claude.md`: un único recorrido de 7 zonas que conecta los cuatro objetivos aprobados.
+
+**Recorrido propuesto:** caja de herramientas (montar arco y aprender controles) → puente obligatorio cortando un hilo con aguja → bolsa de clavos (3 hilos) → pasillo de cortadora láser (la aguja se funde; un clavo clavado en un taco de madera bloquea el haz) → robot de dos modos (clavo al OFF activa la trampa y alarga su recorrido bajo una botella; el charco de color lo cortocircuita y suelta la canica 1) → base de la mesa (aguja libera la canica 2; las canicas se disparan con el arco y un salto lleva a la mesa) → máquina (un clavo suelta una llave inglesa que se balancea y una aguja corta su hilo cuando pasa sobre el botón).
+
+**Comprobaciones:** ningún recurso se pide antes de entregarlo; cada munición se reutiliza al menos dos veces; ningún fallo deja al jugador atascado (munición ilimitada, fundido al punto seguro, botella válida en cualquier orden, canicas recuperables, tres herramientas para el final). Estimación: 9–12,5 minutos, con lista de recortes si se excede.
+
+**Decisiones pendientes de Roi:** final (péndulo u otra opción de Codex), función del láser, canicas disparadas con arco o lanzadas a mano, munición ilimitada o limitada, uno o dos saltos.
 
