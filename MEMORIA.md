@@ -19,6 +19,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 5 | 26/11/2026 | Decisiones de Roi y propuesta común del concepto para contrastar con Codex | `docs/propuesta_comun_concepto.md` |
 | 6 | 26/11/2026 | Respuesta de Codex: viabilidad y recorrido recomendado | `docs/debate_concepto_opinion_codex.md` |
 | 7 | 26/11/2026 | Roi aprueba cuatro objetivos y amplía el papel de los pasos intermedios | `docs/estructura_aprobada.md` |
+| 8 | 26/11/2026 | Roi aprueba el salto entre canicas y se prepara el cierre de concepto con Claude | `docs/cierre_fase_1_para_roi_y_claude.md` |
 
 ---
 
@@ -134,4 +135,16 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Trabajo realizado:** se creó `docs/estructura_aprobada.md` como referencia actual del diseño. Distingue objetivos ya aprobados de posibles funciones de los pasos intermedios y de las decisiones que siguen abiertas. Se actualizó `README.md` y se añadió una nota de corrección al debate anterior de Codex para que su recomendación de aplazar láseres y portales no se confunda con el alcance vigente.
 
 **Pendiente:** concretar con Roi y Claude las dos municiones, la función del láser y del portal, la acción final en la máquina y la geometría del mapa. Probar las interacciones principales en Meta Quest 3 antes de prometer una presentación visual definitiva de los portales.
+
+---
+
+## Entrada 8 · 26/11/2026 · Salto espacial y preparación del cierre de concepto
+
+**Participan:** Roi + Codex. Se prepara un documento para la siguiente aportación de Claude.
+
+**Decisión de Roi:** le gusta una pareja de canicas conectadas que permita un salto espacial. Ver a través del portal no es esencial en la primera versión y puede estudiarse al final.
+
+**Trabajo realizado:** se actualizó `docs/estructura_aprobada.md` con esa decisión. Se redactó `docs/cierre_fase_1_para_roi_y_claude.md`: separa lo decidido de seis decisiones de concepto todavía abiertas, presenta dos posibilidades para el final y formula un encargo concreto para que Claude responda sin reabrir los cuatro objetivos ya aprobados. El documento final detallado se redactará más adelante, cuando mapa, mecánicas, objetos y flujo estén cerrados; `MEMORIA.md` seguirá conservando el debate y las decisiones paso a paso.
+
+**Pendiente:** recibir y contrastar la opinión de Claude y las elecciones de Roi sobre municiones, láser, robot, activación de canicas, final y ayudas. Confirmar fecha de entrega y disponibilidad de Quest 3 para pruebas.
 

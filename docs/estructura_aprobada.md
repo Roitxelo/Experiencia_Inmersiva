@@ -2,7 +2,7 @@
 
 **Fecha:** 26/11/2026
 
-**Estado:** cuatro objetivos principales aprobados por Roi. Los pasos intermedios son propuestas de diseño para concretar con Roi y Claude antes de hacer el mapa, la lista de objetos y el guion de puzles.
+**Estado:** cuatro objetivos principales y salto espacial entre dos canicas aprobados por Roi. El resto de los pasos intermedios son propuestas para concretar con Roi y Claude antes de hacer el mapa, la lista de objetos y el guion de puzles.
 
 ## Visión
 
@@ -26,7 +26,7 @@ Los láseres, portales y pequeñas interacciones con herramientas del taller **f
 | Robot → máquina | Tras detener al robot se abre la ruta de ascenso. Una pareja de canicas portal podría trasladar al usuario a una plataforma alta mediante una transición breve; el resto del ascenso debe mantener clara la posición de la máquina. | Presentar portales, escalada y un mecanismo final nuevo todos a la vez sin preparación. |
 | Frente a la máquina | Reutilizar una acción aprendida para desbloquear el botón y terminar con una pulsación física cercana. | Un botón final que solo pide apuntar y hacer clic, sin aprovechar lo aprendido. |
 
-Esta tabla expresa **funciones de juego**, no fija todavía ubicación de objetos ni solución exacta. En particular, “portal” puede ser una pareja de dispositivos del inventor que teletransporta con fundido. Un portal con vista continua al otro lado necesitaría otro renderizado de la escena y debe evaluarse por rendimiento antes de prometerse. El teletransporte con transición corta encaja mejor con las pautas de comodidad de Meta para cambios de posición y altura.
+Esta tabla expresa **funciones de juego**, no fija todavía ubicación de objetos ni solución exacta. Roi ha elegido un par de canicas conectado que produce un salto espacial. Por ahora no es necesario ver el destino a través del portal; esa presentación puede estudiarse al final. El teletransporte con transición corta encaja mejor con las pautas de comodidad de Meta para cambios de posición y altura.
 
 ## Principios para concretar el mapa y los puzles
 
@@ -42,7 +42,7 @@ Esta tabla expresa **funciones de juego**, no fija todavía ubicación de objeto
 
 1. **Identidad de las dos municiones.** La propuesta actual es aguja que corta/perfora materiales ligeros y punta con peso que acciona mecanismos resistentes. Hay que confirmar si resulta intuitiva dentro del taller.
 2. **Función del láser.** Sensor que bloquea el acceso, peligro temporizado o parte de una máquina del inventor. Elegir una función principal y una solución que use una mecánica ya aprendida.
-3. **Función de las canicas portal.** Determinar cómo se descubren, cómo se activan y si son necesarias para el ascenso o si ofrecen otra ruta. Se recomienda usarlas en un único salto significativo, con fundido, en lugar de convertirlas en un sistema general de teletransporte libre.
+3. **Función de las canicas portal.** Ya está decidido que son dos canicas conectadas y permiten un salto espacial sin vista continua del otro lado. Falta determinar cómo se descubren, cómo se activan y qué parte del ascenso resuelven.
 4. **Acción especial de la máquina.** Diseñar un final que combine disparo y acción física cercana, pero que se entienda sin texto largo.
 5. **Disponibilidad de Quest 3 y fecha exacta de entrega.** Estas dos condiciones fijan cuándo se debe cerrar el prototipo técnico y cuánto detalle cabe producir.
 
