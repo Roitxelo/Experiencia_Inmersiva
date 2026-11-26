@@ -6,11 +6,12 @@ El enunciado original está en [docs/Reto - Experiencia inmersiva.docx](docs/Ret
 
 ## Estado
 
-Fase inicial: revisión del enunciado y elección conjunta de la idea. Todavía no se ha elegido el tema ni la tecnología de implementación.
+Fase inicial: debate de una experiencia a escala reducida dentro de una habitación con muebles gigantes, fabricación de herramientas y un objetivo de recuperación del tamaño. React es un requisito de clase. El alcance y la base técnica siguen pendientes de decidir con Roi.
 
 ## Organización
 
 - `docs/`: enunciado y futura documentación de investigación, diseño y pruebas.
+- [`docs/analisis_concepto_y_viabilidad.md`](docs/analisis_concepto_y_viabilidad.md): estudio provisional de la idea y de WebXR con React.
 - `MEMORIA.md`: registro cronológico de decisiones, avances, pruebas e incidencias.
 - Código y recursos: se incorporarán cuando se acuerde la estructura técnica.
 

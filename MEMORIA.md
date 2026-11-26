@@ -14,6 +14,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 |---|-------|-------|----------|
 | 1 | 26/11/2026 | Lectura del enunciado y respuestas a la investigación guiada (Reto 5) | `docs/investigacion/reto5_investigacion_guiada.md` |
 | 2 | 26/11/2026 | Preparación del repositorio y forma de trabajo | `README.md`, `.gitignore`, `MEMORIA.md` |
+| 3 | 26/11/2026 | Concepto de escala reducida y estudio de viabilidad WebXR con React | `docs/analisis_concepto_y_viabilidad.md` |
 
 ---
 
@@ -47,3 +48,17 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 - El archivo `docs/investigacion/reto5_investigacion_guiada.md` estaba sin seguimiento durante este trabajo y no se incluyó en ese commit ni se modificó.
 
 **Pendiente de decidir con Roi:** fecha exacta de entrega, tema de la experiencia, si React es requisito obligatorio, disponibilidad de las Meta Quest 3 para pruebas y modo de acceso HTTPS.
+
+---
+
+## Entrada 3 · 26/11/2026 · Concepto y viabilidad
+
+**Participan:** Roi + Codex. La opinión de Claude queda pendiente de incorporar; no se le ha consultado directamente desde este chat.
+
+**Aportación de Roi:** crear una experiencia ambiciosa que sorprenda incluso a usuarios habituales de VR. El usuario empieza reducido de tamaño en una habitación con muebles gigantes, recoge y fusiona objetos cotidianos para fabricar herramientas como un arco y flechas, y podría intentar alcanzar una máquina que revierta su tamaño. React es un requisito confirmado de clase.
+
+**Trabajo realizado:** se contrastó la viabilidad de WebXR con documentación actual de Meta, MDN y React Three Fiber. Se redactó `docs/analisis_concepto_y_viabilidad.md` con una conclusión provisional, dos rutas técnicas posibles, riesgos, una primera prueba en Quest 3 y preguntas de diseño. Las fuentes y la fecha de consulta constan en ese archivo.
+
+**Conclusión provisional:** WebXR con React es suficiente para el núcleo propuesto. WebXR no aporta por sí solo modelos, física ni lógica de fabricación; esas partes requieren bibliotecas y desarrollo. React Three Fiber con React Three XR es la opción inicial más directa por el requisito React, pero no se ha elegido definitivamente. La dificultad principal será lograr interacciones creíbles, confort y buen rendimiento dentro del plazo.
+
+**Pendiente:** debatir el concepto con Roi y Claude, decidir habitación y objetivo, confirmar fecha exacta de enero y realizar una prueba pequeña en las Meta Quest 3 antes de cerrar el alcance.
