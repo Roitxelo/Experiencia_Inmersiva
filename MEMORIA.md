@@ -25,6 +25,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 11 | 26/11/2026 | Recorrido único propuesto por Claude | `docs/recorrido_propuesto_claude.md` |
 | 12 | 26/11/2026 | Decisiones de Roi sobre el recorrido y nuevas opciones (obstáculo de clavos, canicas con arco, péndulo) | `docs/recorrido_propuesto_claude.md` (revisión 1) |
 | 13 | 27/11/2026 | Regla-puente, cajonera-escalera y versión provisional final del flujo | `docs/flujo_provisional_final.md` |
+| 14 | 27/11/2026 | Revisión técnica y lógica de Codex del flujo provisional de Claude | `docs/revision_codex_flujo_2026-11-27.md` |
 
 ---
 
@@ -232,4 +233,18 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 - Canicas: se mantiene la **flecha con dedal**, pendiente de que Roi la confirme.
 
 **Pendiente:** revisión con Codex de las dudas del apartado 9 del documento; luego, verificación de Roi y cierre como definitivo.
+
+---
+
+## Entrada 14 · 27/11/2026 · Revisión inicial de Codex del flujo provisional
+
+**Participan:** Roi + Codex
+
+**Sincronización inicial:** antes de revisar el contenido, se subieron a `origin/main` los tres commits locales pendientes (`7f64a6a`, `b544c28` y `5f574f9`), siguiendo el orden solicitado por Roi.
+
+**Trabajo realizado:** se leyeron `docs/flujo_provisional_final.md`, `docs/estructura_aprobada.md` y las entradas 11–13 de esta memoria. Se contrastó la viabilidad con documentación actual de Meta y React Three XR. Se escribió `docs/revision_codex_flujo_2026-11-27.md`, que revisa orden de recursos, fallos, recuperación de canicas, duración y riesgos técnicos en Quest 3.
+
+**Hallazgos principales:** los recursos se entregan antes de su uso. Falta explicar cómo se sube desde el suelo a la mesa baja para cruzar la regla-puente. La duración estimada de 9,5–13,5 minutos supera el objetivo por el extremo alto y todavía no se ha medido con usuarios. El arco, el carcaj, la colocación de portales, los cambios de altura y las ayudas deben probarse en Quest 3. Conviene definir el comportamiento si se corta el hilo de la plomada antes de liberar su balanceo y asegurar que recuperar las canicas no deje al jugador sin salida tras el salto.
+
+**Pendiente de respuesta de Roi antes de escribir la versión provisional de Codex:** flecha con dedal para las canicas y posible repetición entre la regla-puente y los tres cajones accionados con clavos. El flujo de Claude se conserva sin modificaciones.
 

@@ -18,6 +18,8 @@ Fase de diseño: Roi ha aprobado cuatro objetivos principales para una experienc
 - [`docs/cierre_fase_1_para_roi_y_claude.md`](docs/cierre_fase_1_para_roi_y_claude.md): decisiones abiertas y preguntas concretas para cerrar el concepto con Roi y Claude.
 - [`docs/respuesta_roi_y_revision_codex_fase_1.md`](docs/respuesta_roi_y_revision_codex_fase_1.md): respuestas recientes de Roi, riesgos de diseño y preguntas para la siguiente revisión de Claude.
 - [`docs/prompt_para_claude_cierre_fase_1.md`](docs/prompt_para_claude_cierre_fase_1.md): encargo breve para que Claude proponga el cierre del concepto.
+- [`docs/flujo_provisional_final.md`](docs/flujo_provisional_final.md): versión provisional de Claude con ocho zonas.
+- [`docs/revision_codex_flujo_2026-11-27.md`](docs/revision_codex_flujo_2026-11-27.md): revisión de dependencias, fallos, duración y viabilidad, pendiente de dos decisiones de Roi.
 - `MEMORIA.md`: registro cronológico de decisiones, avances, pruebas e incidencias.
 - Código y recursos: se incorporarán cuando se acuerde la estructura técnica.
 
