@@ -4,7 +4,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 
 **Equipo:** Roi (dirección y decisiones), Claude y Codex (asistentes de IA).
 **Plazo:** enero de 2027.
-**Enunciado:** [docs/Reto - Experiencia inmersiva.docx](docs/1_enunciado/Reto%20-%20Experiencia%20inmersiva.docx)
+**Enunciado:** [docs/1_enunciado/Reto - Experiencia inmersiva.docx](docs/1_enunciado/Reto%20-%20Experiencia%20inmersiva.docx)
 
 ---
 
@@ -33,6 +33,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 19 | 27/11/2026 | Vara del arco: brida en lugar de aguja de tejer (pendiente de confirmar) | `docs/4_historico/flujo_definitivo_provisional.md` |
 | 20 | 27/11/2026 | Arco provisional: clip que se abre con las dos manos | `docs/4_historico/flujo_definitivo_provisional.md` |
 | 21 | 27/11/2026 | Flujo definitivo, guía de objetos y reorganización de la carpeta | `docs/3_diseno/flujo_definitivo.md`, `docs/3_diseno/guia_objetos.md`, `README.md`, `docs/README.md` |
+| 22 | 27/11/2026 | Valoración del informe de Gemini, cuerda de goma elástica y flujo corregido (versión 2) | `docs/5_correcciones/` |
 
 ---
 
@@ -362,3 +363,27 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 
 **Pendiente:** fecha de entrega, primera prueba en Quest 3 y siguiente fase de diseño (mapa con medidas, lista de modelos 3D y guion técnico).
 
+---
+
+## Entrada 22 · 27/11/2026 · Informe de Gemini y flujo corregido (versión 2)
+
+**Participan:** Roi + Gemini + Claude
+
+**Contexto:** Roi pidió a Gemini un informe de coherencia y lógica del diseño. Gemini señaló 24 hallazgos (7 críticos, 12 moderados y 5 menores). Roi pidió a Claude analizarlo, valorar si Gemini había malinterpretado ideas o escalas, plantear soluciones por pasos que mantuvieran las decisiones tomadas y pensaran en el mapa, y generar un flujo nuevo sin errores en una carpeta propia para terminarlo con Codex.
+
+**Decisión de Roi:** la cuerda del arco pasa a ser una **goma elástica del costurero**, en lugar del hilo del ovillo. El clip da la forma y la goma guarda la energía. Como consecuencia, el ovillo se traslada a la zona 1, al pie del cartón, y solo sirve para la aguja con hilo.
+
+**Trabajo realizado:** se creó `docs/5_correcciones/`:
+- `00_informe_gemini.md`: el informe original, movido desde `docs/4_historico/` sin cambios.
+- `01_lista_errores.md`: lista maestra de 31 puntos (los de Gemini separados en 29, más 2 que Gemini no vio), cada uno con valoración, gravedad revisada, estado y solución. Resultado: 22 reales, 5 parciales, 3 malentendidos (la canica como culata, la aguja con hilo de un solo uso decidida por Roi y la diferencia entre duración objetivo y estimada) y 1 que no es error (idioma).
+- `02_soluciones_por_pasos.md`: solución detallada de cada punto.
+- `03_cotas_y_mapa.md`: escala ×15 (el jugador pesa unos 20 g), alturas (suelo 0, mesa baja y repisa de la cajonera a 25 cm, alto de la cajonera a 49 cm, mesa de trabajo a 90 cm), planta, reglas de conexión, puntos seguros y zonas de caída. Es la base del mapa.
+- `04_controles_confort_interfaz.md`: mapa de mandos de Quest 3 (la munición cambia con X, no con el joystick), opciones de confort, reaparición tras caídas e interfaz React.
+- `05_flujo_corregido.md` y `06_guia_objetos_corregida.md`: versión 2 del flujo y de la guía.
+- `07_prompt_para_codex.md`: encargo para que Codex revise la versión 2.
+
+**Cambios principales de la versión 2:** la regla llega a una repisa intermedia de la cajonera y se baja al pasillo del robot por una escalera de cajones abiertos en la otra cara. El cartón mide 50 cm, sobresale de la mesa y tiene un asa donde se traba la aguja. El robot ocupa todo el ancho de su pasillo, que es el único camino, y deja una franja limpia que delata si el charco está fuera de su recorrido. Una base de carga quieta repite la pegatina. Las canicas se enlazan con una abajo, en una pata de madera, y otra en la diana, en cualquier orden. "Recoger canicas" desaparece tras el salto. El pestillo retiene la plomada elevada y toda su oscilación pasa sobre la bandeja (se eliminan el cajón y el carrete). El botón final pide 150 g. El rincón de inicio queda cerrado y cualquier caída devuelve al último punto seguro. La bolsa vuelve a tener 3 hilos. Se elimina la palabra "flecha". El objetivo 2 pasa a "Conseguir los clavos y aprender a usarlos". Se propone una fase 0 de prueba técnica antes del mapa.
+
+**No se ha modificado** `docs/3_diseno/`: la versión 2 lo sustituirá cuando Roi la cierre.
+
+**Pendiente:** revisión de Codex; cierre de la versión 2 por Roi; Roi confirma el modelo de visor y el idioma de la entrega y personaliza la investigación guiada; fase 0 en el visor.
