@@ -26,6 +26,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 12 | 26/11/2026 | Decisiones de Roi sobre el recorrido y nuevas opciones (obstáculo de clavos, canicas con arco, péndulo) | `docs/recorrido_propuesto_claude.md` (revisión 1) |
 | 13 | 27/11/2026 | Regla-puente, cajonera-escalera y versión provisional final del flujo | `docs/flujo_provisional_final.md` |
 | 14 | 27/11/2026 | Revisión técnica y lógica de Codex del flujo provisional de Claude | `docs/revision_codex_flujo_2026-11-27.md` |
+| 15 | 27/11/2026 | Decisiones de Roi sobre canicas y cajonera; flujo provisional de Codex | `docs/flujo_provisional_codex.md` |
 
 ---
 
@@ -247,4 +248,18 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Hallazgos principales:** los recursos se entregan antes de su uso. Falta explicar cómo se sube desde el suelo a la mesa baja para cruzar la regla-puente. La duración estimada de 9,5–13,5 minutos supera el objetivo por el extremo alto y todavía no se ha medido con usuarios. El arco, el carcaj, la colocación de portales, los cambios de altura y las ayudas deben probarse en Quest 3. Conviene definir el comportamiento si se corta el hilo de la plomada antes de liberar su balanceo y asegurar que recuperar las canicas no deje al jugador sin salida tras el salto.
 
 **Pendiente de respuesta de Roi antes de escribir la versión provisional de Codex:** flecha con dedal para las canicas y posible repetición entre la regla-puente y los tres cajones accionados con clavos. El flujo de Claude se conserva sin modificaciones.
+
+---
+
+## Entrada 15 · 27/11/2026 · Respuestas de Roi y versión provisional de Codex
+
+**Participan:** Roi + Codex
+
+**Decisiones de Roi:** se descarta la flecha con dedal. Cada canica se adhiere con chicle a la parte trasera de un clavo; el chicle no exige recolección. Se mantienen los tres disparos de clavo para abrir la cajonera. La regla de mecánicas es: aguja para cortar, clavo para pulsar y canica más clavo con chicle para teletransporte. Roi pidió repartir estas acciones entre las pruebas para reducir la sensación de repetición.
+
+**Trabajo realizado:** se redactó `docs/flujo_provisional_codex.md` como versión separada de la de Claude. Conserva las ocho zonas y cuatro objetivos; hace que la regla-puente caiga al pulsar un cierre con clavo, alterna cada disparo de la cajonera con un ascenso, ancla las canicas con clavo y chicle, y define reintentos, recuperación de canicas y reinicio de la plomada. Corrige la conexión física entre el suelo tras la bolsa y la regla-puente situando un canal de cables entre dos superficies a la misma altura. Propone dos costuras en vez de tres para la bolsa; Roi aún debe verificar ese ajuste.
+
+**Viabilidad y límites:** el orden de recursos es coherente y las acciones descritas pueden plantearse en React/WebXR. La estimación de 10–12 minutos no está validada: la tabla previa abarca 9,5–13,5 minutos y el arco, los tres cajones y las canicas pueden ampliar el tiempo. Hay que probar comodidad, puntería, texto, destinos de teletransporte y rendimiento en Meta Quest 3.
+
+**Pendiente:** verificación de Roi, contraste con Claude y elaboración del mapa medido y guion técnico. Esta versión sigue siendo provisional.
 
