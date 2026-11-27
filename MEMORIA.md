@@ -28,6 +28,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 14 | 27/11/2026 | Revisión técnica y lógica de Codex del flujo provisional de Claude | `docs/revision_codex_flujo_2026-11-27.md` |
 | 15 | 27/11/2026 | Decisiones de Roi sobre canicas y cajonera; flujo provisional de Codex | `docs/flujo_provisional_codex.md` |
 | 16 | 27/11/2026 | Corrección de la progresión del teletransporte | `docs/flujo_provisional_codex.md` |
+| 17 | 27/11/2026 | Inicio en costurero, rampa tirando del hilo y versión definitiva provisional del flujo | `docs/flujo_definitivo_provisional.md` |
 
 ---
 
@@ -277,4 +278,24 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Trabajo realizado:** se reescribió `docs/flujo_provisional_codex.md` a partir del flujo de Claude y las entradas 11–15. Antes de las canicas hay movimiento ordinario, descenso por rampa, cruce caminando de la regla y subida saltando por tres cajones. Se mantiene un solo salto espacial al activar las dos canicas. Se restauran los tres hilos de la bolsa y el calzo de la regla como propuesta provisional de Claude. Se marcaron como obsoletas las recomendaciones de teletransporte temprano en `docs/revision_codex_flujo_2026-11-27.md` y `docs/estructura_aprobada.md`.
 
 **Pendiente:** Roi y Claude deben verificar el flujo corregido, especialmente cómo se llega físicamente al inicio de la regla-puente y los controles cómodos para caminar y saltar en Quest 3. No se ha probado en el visor.
+
+---
+
+## Entrada 17 · 27/11/2026 · Versión definitiva provisional del flujo
+
+**Participan:** Roi + Claude
+
+**Decisiones de Roi:**
+- Al inicio no hay una caja de herramientas, sino **utensilios de costura** que tengan sentido en el taller. De ellos salen las agujas, el hilo y algo flexible para el arco.
+- En la rampa, uno de los primeros disparos es una **aguja con hilo atado** (del mismo carrete que el arco). Se clava en el cartón y, con una **mecánica nueva**, el jugador **tira del hilo** para arrastrar el cartón o hacerlo caer y formar una rampa que le ayuda a **ascender**.
+- Comparar los flujos de Claude y de Codex y redactar una versión definitiva provisional para que Roi la procese o la modifique y la cierre.
+
+**Trabajo realizado:** Claude leyó las entradas 14–16, `docs/flujo_provisional_codex.md` y `docs/revision_codex_flujo_2026-11-27.md`, y redactó `docs/flujo_definitivo_provisional.md`:
+- Tabla comparativa de las dos versiones y qué se queda de cada una. De Codex: teletransporte solo al final, canicas con chicle detrás de un clavo, cajones alternando disparo y salto, enlace de canicas que se mantiene tras el salto, y reinicio de la plomada.
+- **Inicio:** costurero volcado junto a la silla donde cuelga la bata del inventor (estaba cosiendo un botón). Acerico con agujas, carrete de hilo y una **ballena de costura** como vara flexible del arco (pendiente de confirmar).
+- **Rampa:** un cartón casi vertical apoyado en la mesa baja. La aguja con hilo se clava en su base, el jugador tira y la base se desliza hacia él, de modo que queda inclinado como una rampa para subir. Esto resuelve el problema señalado por Codex de cómo llegar a la altura de la regla-puente.
+- Mecánicas: cortar (aguja), **tirar** (aguja con hilo), pulsar (clavo) y teletransporte (canica + clavo con chicle).
+- Duración estimada de 10–14 minutos, con tres recortes ordenados por si se excede.
+
+**Pendiente de Roi:** objeto flexible del arco; bajar la canica 2 tirando con la aguja con hilo (recomendado) o cortando; orden de los recortes. Después se cierra como definitiva.
 
