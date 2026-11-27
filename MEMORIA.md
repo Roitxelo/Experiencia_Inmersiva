@@ -30,6 +30,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 16 | 27/11/2026 | Corrección de la progresión del teletransporte | `docs/flujo_provisional_codex.md` |
 | 17 | 27/11/2026 | Inicio en costurero, rampa tirando del hilo y versión definitiva provisional del flujo | `docs/flujo_definitivo_provisional.md` |
 | 18 | 27/11/2026 | Arco con aguja de tejer, aguja con hilo solo al inicio y recortes aceptados | `docs/flujo_definitivo_provisional.md` |
+| 19 | 27/11/2026 | Vara del arco: brida en lugar de aguja de tejer (pendiente de confirmar) | `docs/flujo_definitivo_provisional.md` |
 
 ---
 
@@ -314,4 +315,16 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Trabajo realizado:** Claude actualizó `docs/flujo_definitivo_provisional.md`. Propone como vara del arco una **aguja de tejer de bambú**, que se reconoce al instante, encaja en un costurero y se dobla un poco. La ficha la llama "Aguja de tejer" para distinguirla de las agujas de coser que se disparan. El carrete pasa a ser un **ovillo** que se queda en la zona 1. Las tablas de mecánicas y recursos quedan ajustadas.
 
 **Pendiente:** que Roi revise y cierre el flujo como definitivo. Después, el mapa con medidas, la lista de objetos y el guion técnico.
+
+---
+
+## Entrada 19 · 27/11/2026 · Nueva vara para el arco
+
+**Participan:** Roi + Claude
+
+**Decisión de Roi:** descarta la aguja de tejer porque es demasiado grande. El objeto flexible no tiene que ser de costura, pero debe tener sentido en el taller y estar en el suelo de la zona inicial, para recogerlo sin buscar mucho.
+
+**Propuesta de Claude:** una **brida de plástico** de 10 cm (a la escala del jugador, de unos 12 cm, equivale a un arco de 1,5 m). Es reconocible, flexible y recupera su forma. Alternativas: regla de plástico de 15 cm (demasiado larga y repite la regla de la zona 3) y hoja de segueta (menos conocida, con dientes). Se descarta el clip desdoblado porque no vuelve a su forma.
+
+**Pendiente:** que Roi confirme la brida.
 

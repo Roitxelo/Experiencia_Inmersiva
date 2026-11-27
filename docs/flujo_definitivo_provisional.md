@@ -2,7 +2,7 @@
 
 **Fecha:** 27/11/2026
 **Redacta:** Claude, a partir de su [`flujo_provisional_final.md`](flujo_provisional_final.md), el [`flujo_provisional_codex.md`](flujo_provisional_codex.md) corregido, la [`revision_codex_flujo_2026-11-27.md`](revision_codex_flujo_2026-11-27.md) y las decisiones de Roi en `MEMORIA.md` (entradas 12–17).
-**Actualización 27/11/2026:** Roi ha respondido a las 3 decisiones del apartado 8 (arco con aguja de tejer, aguja con hilo solo al principio, recortes aceptados).
+**Actualización 27/11/2026:** Roi ha respondido a las 3 decisiones del apartado 8 (aguja con hilo solo al principio, recortes aceptados). Después descartó la aguja de tejer por demasiado grande; la vara del arco propuesta es una **brida**, pendiente de su confirmación.
 **Estado:** **definitiva provisional**. Roi la revisa, la modifica si quiere y se cierra como definitiva. Después vendrán el mapa con medidas, la lista de objetos y el guion técnico.
 
 Leyenda: **[Roi]** decidido por Roi · **[Codex]** aportación de Codex que se adopta · **[Nuevo]** propuesta de Claude en esta versión · **[Pendiente]** falta que Roi lo confirme.
@@ -70,11 +70,11 @@ La máquina se ve desde las zonas 0, 2, 4 y 6.
 ### Zona 0 · El costurero volcado (inicio) — Objetivo 1: montar el arco [Roi + Nuevo]
 - **Por qué está ahí:** el inventor estaba cosiendo un botón de su bata, que sigue colgada en la silla de al lado. El **costurero** se cayó de la silla y quedó volcado en el suelo.
 - **Ve:** fundido desde negro. Estás tumbado entre botones del tamaño de mesas y un dedal como un barril. Al fondo, la máquina brilla sobre la mesa de trabajo.
-- **Hace:** aprende a mirar, caminar, apuntar, inspeccionar y agarrar. Encuentra tres cosas del costurero:
+- **Hace:** aprende a mirar, caminar, apuntar, inspeccionar y agarrar. Encuentra, a pocos pasos y en el suelo, tres cosas:
   - un **acerico** con **agujas** (munición),
   - un **ovillo de hilo** grande (cuerda del arco y hilo para tirar en la zona 1; se queda allí),
-  - una **aguja de tejer de bambú**: el palo largo con una bolita en un extremo que todo el mundo reconoce. Las de bambú se doblan un poco; a tu escala es una vara de arco perfecta. **[Roi: objeto más reconocible]**
-- **Combina:** aguja de tejer + hilo = **arco**. La ficha la llama *"Aguja de tejer"* para no confundirla con las agujas de coser que se disparan, que son finas y cortas.
+  - una **brida** de plástico (de las de sujetar cables) caída del banco de trabajo, junto al costurero. Mide unos 10 cm: a tu tamaño, como un arco de 1,5 m. Es flexible y vuelve a su forma. **[Pendiente: confirmación de Roi]**
+- **Combina:** brida + hilo = **arco**. La brida se dobla y el hilo hace de cuerda.
 - **Obtiene:** arco y agujas.
 
 ### Zona 1 · La rampa del cartón — tirar del hilo [Roi + Nuevo]
@@ -183,7 +183,15 @@ La mecánica nueva de tirar añade algo de tiempo; el extremo alto pasa de los 1
 
 ## 8. Decisiones de Roi para cerrar
 
-1. **Objeto flexible del arco:** uno más reconocible que la ballena → **aguja de tejer de bambú**. **[Roi pidió el cambio; Claude propone el objeto]**
+1. **Objeto flexible del arco:** Roi descartó la ballena (poco reconocible) y la aguja de tejer (demasiado grande). No tiene que ser de costura, pero sí tener sentido en el taller y estar en el suelo de la zona inicial. Opciones (escala: el jugador mide unos 12 cm, así que todo se ve unas 15 veces más grande):
+
+   | Opción | Tamaño real → a tu escala | A favor | En contra |
+   |---|---|---|---|
+   | **Brida de plástico ⭐** | 10 cm → arco de ~1,5 m | Muy reconocible en un taller, flexible y vuelve a su forma como un arco de verdad. | Ninguno importante. |
+   | Regla de plástico de 15 cm | 15 cm → ~2,2 m | Muy reconocible. | Demasiado larga; y ya hay otra regla en la zona 3. |
+   | Hoja de segueta (sierra de marquetería) | 13 cm → ~1,9 m | Es de taller y muy elástica. | Menos conocida y tiene dientes. |
+
+   Descartado: un **clip desdoblado**. Se dobla pero se queda torcido, no vuelve a su forma como un arco. **[Pendiente: Roi confirma la brida]**
 2. **Aguja con hilo:** solo al principio, porque el ovillo está ahí y no se transporta. La canica 2 se baja **cortando** su hilo.
 3. **Recortes de tiempo:** el orden del apartado 7 vale por ahora; si hace falta, se recorta más tarde.
 
