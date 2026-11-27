@@ -1,29 +1,31 @@
 # Experiencia inmersiva
 
-Proyecto de clase para crear una pequeña experiencia de realidad virtual accesible desde el navegador de unas Meta Quest 3.
+Proyecto de clase para crear una pequeña experiencia de realidad virtual accesible desde el navegador de unas **Meta Quest 3**, con **WebXR + React** (React Three Fiber y `@react-three/xr`).
 
-El enunciado original está en [docs/Reto - Experiencia inmersiva.docx](docs/Reto%20-%20Experiencia%20inmersiva.docx). El objetivo mínimo es mostrar una escena 3D con al menos tres objetos, entrar en modo inmersivo, seleccionar o activar un objeto y mostrar una respuesta visual.
+El objetivo mínimo del reto es mostrar una escena 3D con al menos tres objetos, entrar en modo inmersivo, seleccionar o activar un objeto y mostrar una respuesta visual.
+
+## La experiencia
+
+Despiertas diminuto en el taller de un inventor. Con un arco hecho de un clip y una munición que va cambiando (agujas y clavos), usas los objetos del taller a tu favor para detener a un robot aspirador, enlazar dos canicas que te teletransportan y activar la máquina que te devuelve tu tamaño. Duración objetivo: 10–12 minutos.
 
 ## Estado
 
-Fase de diseño: Roi ha aprobado cuatro objetivos principales para una experiencia a escala reducida en un taller: montar un arco, conseguir una segunda munición, detener un robot aspirador y ascender a la máquina que revierte el tamaño. Los pasos intermedios y el mapa están pendientes de concretar. React es un requisito de clase.
+- **Diseño del flujo: cerrado** (27/11/2026).
+- Siguiente fase: mapa con medidas, lista de modelos 3D y guion técnico; primera prueba en Quest 3.
 
-## Organización
+## Índice
 
-- `docs/`: enunciado y futura documentación de investigación, diseño y pruebas.
-- [`docs/analisis_concepto_y_viabilidad.md`](docs/analisis_concepto_y_viabilidad.md): estudio provisional de la idea y de WebXR con React.
-- [`docs/propuesta_comun_concepto.md`](docs/propuesta_comun_concepto.md): decisiones de Roi y propuesta de Claude.
-- [`docs/debate_concepto_opinion_codex.md`](docs/debate_concepto_opinion_codex.md): respuesta técnica y recorrido recomendado por Codex, pendiente de debate.
-- [`docs/estructura_aprobada.md`](docs/estructura_aprobada.md): cuatro objetivos aprobados y pasos intermedios para debatir.
-- [`docs/cierre_fase_1_para_roi_y_claude.md`](docs/cierre_fase_1_para_roi_y_claude.md): decisiones abiertas y preguntas concretas para cerrar el concepto con Roi y Claude.
-- [`docs/respuesta_roi_y_revision_codex_fase_1.md`](docs/respuesta_roi_y_revision_codex_fase_1.md): respuestas recientes de Roi, riesgos de diseño y preguntas para la siguiente revisión de Claude.
-- [`docs/prompt_para_claude_cierre_fase_1.md`](docs/prompt_para_claude_cierre_fase_1.md): encargo breve para que Claude proponga el cierre del concepto.
-- [`docs/flujo_provisional_final.md`](docs/flujo_provisional_final.md): versión provisional de Claude con ocho zonas.
-- [`docs/revision_codex_flujo_2026-11-27.md`](docs/revision_codex_flujo_2026-11-27.md): revisión de dependencias, fallos, duración y viabilidad; las dos decisiones posteriores de Roi constan en la versión de Codex.
-- [`docs/flujo_provisional_codex.md`](docs/flujo_provisional_codex.md): versión provisional corregida de Codex; el salto espacial solo aparece tras enlazar las dos canicas.
-- `MEMORIA.md`: registro cronológico de decisiones, avances, pruebas e incidencias.
-- Código y recursos: se incorporarán cuando se acuerde la estructura técnica.
+| Qué | Dónde |
+|---|---|
+| Enunciado del reto | [`docs/1_enunciado/`](docs/1_enunciado/) |
+| Investigación guiada (Reto 5) | [`docs/2_investigacion/reto5_investigacion_guiada.md`](docs/2_investigacion/reto5_investigacion_guiada.md) |
+| **Flujo definitivo del juego** | [`docs/3_diseno/flujo_definitivo.md`](docs/3_diseno/flujo_definitivo.md) |
+| **Guía de objetos** | [`docs/3_diseno/guia_objetos.md`](docs/3_diseno/guia_objetos.md) |
+| Histórico de borradores y propuestas | [`docs/4_historico/`](docs/4_historico/README.md) |
+| Registro paso a paso | [`MEMORIA.md`](MEMORIA.md) |
+
+Código y recursos: se incorporarán en la fase de desarrollo.
 
 ## Forma de trabajo
 
-Cada hito tendrá una propuesta comprensible, una decisión compartida, una implementación pequeña y una comprobación. Se registrará el resultado en `MEMORIA.md` y se guardará en Git. Las funciones de realidad virtual se validarán también en las Meta Quest 3.
+Roi dirige y decide; Claude y Codex proponen y desarrollan. Cada hito tendrá una propuesta comprensible, una decisión compartida, una implementación pequeña y una comprobación. El resultado se registra en `MEMORIA.md` y se guarda en Git. Las funciones de realidad virtual se validarán en las Meta Quest 3.
