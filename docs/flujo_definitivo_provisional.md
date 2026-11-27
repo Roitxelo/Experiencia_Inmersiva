@@ -2,6 +2,7 @@
 
 **Fecha:** 27/11/2026
 **Redacta:** Claude, a partir de su [`flujo_provisional_final.md`](flujo_provisional_final.md), el [`flujo_provisional_codex.md`](flujo_provisional_codex.md) corregido, la [`revision_codex_flujo_2026-11-27.md`](revision_codex_flujo_2026-11-27.md) y las decisiones de Roi en `MEMORIA.md` (entradas 12–17).
+**Actualización 27/11/2026:** Roi ha respondido a las 3 decisiones del apartado 8 (arco con aguja de tejer, aguja con hilo solo al principio, recortes aceptados).
 **Estado:** **definitiva provisional**. Roi la revisa, la modifica si quiere y se cierra como definitiva. Después vendrán el mapa con medidas, la lista de objetos y el guion técnico.
 
 Leyenda: **[Roi]** decidido por Roi · **[Codex]** aportación de Codex que se adopta · **[Nuevo]** propuesta de Claude en esta versión · **[Pendiente]** falta que Roi lo confirme.
@@ -35,11 +36,11 @@ Leyenda: **[Roi]** decidido por Roi · **[Codex]** aportación de Codex que se a
 | Acción | Con qué | Ejemplo |
 |---|---|---|
 | **Cortar** | Aguja | Hilos de la bolsa, botella, hilo de la plomada |
-| **Tirar** | Aguja con hilo atado **[Roi, nueva]** | Arrastrar el cartón para formar la rampa |
+| **Tirar** | Aguja con hilo atado **[Roi, nueva]** | Solo en la rampa del principio: el ovillo está ahí y no se transporta |
 | **Pulsar / empujar** | Clavo | Calzo de la regla, cajones, OFF del robot, pestillo |
 | **Teletransporte** | Canica + clavo con chicle | Un único salto a la mesa de la máquina |
 
-**Inventario [Roi]:** munición ilimitada. Agujas y clavos en un **carcaj detrás del hombro**. **Arco** y **canicas** en el **cinto**. El hilo sale del carrete y no se gasta.
+**Inventario [Roi]:** munición ilimitada. Agujas y clavos en un **carcaj detrás del hombro**. **Arco** y **canicas** en el **cinto**. El ovillo de hilo **no se transporta**: se queda junto al costurero.
 
 **Movimiento [Roi]:** caminar y saltar de forma normal; el control exacto (joystick, botón de salto, opciones de comodidad) se prueba en Quest 3. **El teletransporte no existe hasta la zona 6.**
 
@@ -71,15 +72,15 @@ La máquina se ve desde las zonas 0, 2, 4 y 6.
 - **Ve:** fundido desde negro. Estás tumbado entre botones del tamaño de mesas y un dedal como un barril. Al fondo, la máquina brilla sobre la mesa de trabajo.
 - **Hace:** aprende a mirar, caminar, apuntar, inspeccionar y agarrar. Encuentra tres cosas del costurero:
   - un **acerico** con **agujas** (munición),
-  - un **carrete de hilo** (cuerda del arco y, después, hilo para tirar),
-  - una **ballena de costura**: la varilla flexible de plástico que se cose en los cuellos de camisa o los corsés. A tu escala es como la vara de un arco. **[Pendiente: confirmar el objeto flexible]**
-- **Combina:** ballena + hilo = **arco**.
+  - un **ovillo de hilo** grande (cuerda del arco y hilo para tirar en la zona 1; se queda allí),
+  - una **aguja de tejer de bambú**: el palo largo con una bolita en un extremo que todo el mundo reconoce. Las de bambú se doblan un poco; a tu escala es una vara de arco perfecta. **[Roi: objeto más reconocible]**
+- **Combina:** aguja de tejer + hilo = **arco**. La ficha la llama *"Aguja de tejer"* para no confundirla con las agujas de coser que se disparan, que son finas y cortas.
 - **Obtiene:** arco y agujas.
 
 ### Zona 1 · La rampa del cartón — tirar del hilo [Roi + Nuevo]
 - **Ve:** un trozo plano de cartón está **casi vertical**, apoyado contra el canto de la mesa baja. Así no se puede subir: está demasiado empinado.
 - **Hace:**
-  1. Combina **aguja + hilo del carrete** = **aguja con hilo** (una especie de arpón).
+  1. Junto al costurero, ata el extremo del **ovillo** a una aguja = **aguja con hilo** (una especie de arpón). Es un recurso **solo de esta zona**: el ovillo no se transporta. **[Roi]**
   2. Dispara a la **base** del cartón: la aguja **se clava** y el hilo queda tenso entre el cartón y tu mano.
   3. **Mecánica nueva: tirar.** Agarra el hilo y tira hacia ti (o mantén un botón para recogerlo). La base del cartón **se desliza hacia ti** y la parte alta baja apoyada en el canto: el cartón queda **inclinado como una rampa**.
   4. Sube caminando a la mesa baja.
@@ -116,7 +117,7 @@ La máquina se ve desde las zonas 0, 2, 4 y 6.
 ### Zona 6 · Base de la mesa · canicas — Objetivo 4: ascender [Roi + Codex]
 - **Ve:** la **canica 2** brilla en una bandejita colgada bajo el canto de la mesa de trabajo. Junto a ella, un **paquete de chicles** abierto. Arriba, en el tablero, una **diana de corcho**.
 - **Hace:**
-  1. Consigue la canica 2. **[Pendiente]** Recomiendo reutilizar la **aguja con hilo**: clavarla en la bandejita y **tirar** para bajarla (así la mecánica de tirar se usa dos veces). Alternativa: cortar su hilo con una aguja, como en la versión anterior.
+  1. **Aguja** al hilo de la bandejita → la canica 2 cae sobre una esponja. **[Roi]**
   2. Pega cada canica con **chicle** detrás de un clavo.
   3. Dispara la primera a una superficie de madera cercana → portal **inactivo**.
   4. Dispara la segunda a la diana de corcho → **se enlazan**. **Se desbloquea el teletransporte.**
@@ -135,8 +136,8 @@ La máquina se ve desde las zonas 0, 2, 4 y 6.
 
 | Recurso / mecánica | Se obtiene | Primer uso | Usos posteriores |
 |---|---|---|---|
-| Aguja (cortar) | 0 | 2 (hilos de la bolsa) | 3 (pista), 5 (botella), 7 (hilo plomada) |
-| Aguja con hilo (tirar) | 1 | 1 (rampa) | 6 (bandejita) **[Pendiente]** |
+| Aguja (cortar) | 0 | 2 (hilos de la bolsa) | 3 (pista), 5 (botella), 6 (hilo bandejita), 7 (hilo plomada) |
+| Aguja con hilo (tirar) | 1 | 1 (rampa) | — (solo al principio, el ovillo se queda ahí) **[Roi]** |
 | Clavo (pulsar) | 2 | 3 (calzo) | 4 (3 cajones), 5 (OFF), 7 (pestillo) |
 | Canicas + chicle (teletransporte) | 5 y 6 | 6 | Enlace de vuelta |
 
@@ -154,7 +155,7 @@ Ningún recurso se pide antes de tenerlo.
 | 3 | Deducir (aguja no, clavo sí) y cruzar |
 | 4 | Pulsar y saltar, alternando |
 | 5 | Observar y deducir |
-| 6 | Combinar, tirar y teletransportarse |
+| 6 | Cortar, combinar y teletransportarse |
 | 7 | Sentido del momento |
 
 ---
@@ -173,17 +174,17 @@ Ningún recurso se pide antes de tenerlo.
 | 7 · Máquina | 1,0 – 1,5 |
 | **Total** | **10 – 14** |
 
-La mecánica nueva de tirar añade algo de tiempo; el extremo alto pasa de los 12 minutos. **Recortes posibles si al medir nos pasamos**, de menos a más impacto:
+La mecánica nueva de tirar añade algo de tiempo; el extremo alto pasa de los 12 minutos. **Recortes si al medir nos pasamos** (orden aceptado por Roi por ahora), de menos a más impacto:
 1. La canica 2 está ya en el suelo (sin bandejita).
 2. La bolsa cuelga de 2 hilos en vez de 3.
 3. La cajonera tiene 2 cajones en vez de 3.
 
 ---
 
-## 8. Lo que Roi debe decidir para cerrar
+## 8. Decisiones de Roi para cerrar
 
-1. **Objeto flexible del arco:** ¿**ballena de costura** (recomendada: es de costura y es flexible), aguja de tejer de bambú, u otro?
-2. **Canica 2:** ¿bajarla **tirando** con la aguja con hilo (recomendado, reutiliza la mecánica nueva) o **cortando** su hilo?
-3. **Recortes de tiempo:** ¿te parece bien el orden del apartado 7 para cuando midamos?
+1. **Objeto flexible del arco:** uno más reconocible que la ballena → **aguja de tejer de bambú**. **[Roi pidió el cambio; Claude propone el objeto]**
+2. **Aguja con hilo:** solo al principio, porque el ovillo está ahí y no se transporta. La canica 2 se baja **cortando** su hilo.
+3. **Recortes de tiempo:** el orden del apartado 7 vale por ahora; si hace falta, se recorta más tarde.
 
-Lo demás queda cerrado según tus decisiones. Siguen pendientes, como datos de planificación, la fecha exacta de entrega y la primera prueba con las Quest 3.
+Con esto el flujo queda listo para que Roi lo cierre como definitivo. Siguen pendientes, como datos de planificación, la fecha exacta de entrega y la primera prueba con las Quest 3.

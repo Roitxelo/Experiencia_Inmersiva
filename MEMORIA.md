@@ -29,6 +29,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 15 | 27/11/2026 | Decisiones de Roi sobre canicas y cajonera; flujo provisional de Codex | `docs/flujo_provisional_codex.md` |
 | 16 | 27/11/2026 | Corrección de la progresión del teletransporte | `docs/flujo_provisional_codex.md` |
 | 17 | 27/11/2026 | Inicio en costurero, rampa tirando del hilo y versión definitiva provisional del flujo | `docs/flujo_definitivo_provisional.md` |
+| 18 | 27/11/2026 | Arco con aguja de tejer, aguja con hilo solo al inicio y recortes aceptados | `docs/flujo_definitivo_provisional.md` |
 
 ---
 
@@ -298,4 +299,19 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 - Duración estimada de 10–14 minutos, con tres recortes ordenados por si se excede.
 
 **Pendiente de Roi:** objeto flexible del arco; bajar la canica 2 tirando con la aguja con hilo (recomendado) o cortando; orden de los recortes. Después se cierra como definitiva.
+
+---
+
+## Entrada 18 · 27/11/2026 · Últimas decisiones sobre el flujo definitivo provisional
+
+**Participan:** Roi + Claude
+
+**Decisiones de Roi:**
+1. El objeto flexible del arco debe ser **más reconocible** que la ballena de costura.
+2. La **aguja con hilo** (gancho para tirar) solo se usa al principio, porque el ovillo está ahí y no se transporta. La canica 2 se baja **cortando** su hilo con una aguja.
+3. El orden de recortes de tiempo vale por ahora; si hace falta, se recortará más tarde.
+
+**Trabajo realizado:** Claude actualizó `docs/flujo_definitivo_provisional.md`. Propone como vara del arco una **aguja de tejer de bambú**, que se reconoce al instante, encaja en un costurero y se dobla un poco. La ficha la llama "Aguja de tejer" para distinguirla de las agujas de coser que se disparan. El carrete pasa a ser un **ovillo** que se queda en la zona 1. Las tablas de mecánicas y recursos quedan ajustadas.
+
+**Pendiente:** que Roi revise y cierre el flujo como definitivo. Después, el mapa con medidas, la lista de objetos y el guion técnico.
 
