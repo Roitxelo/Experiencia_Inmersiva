@@ -100,8 +100,8 @@ MESA DE TRABAJO                                 SUELO
 *Aprendes:* disparar y que el hilo sirve para tirar. *Llegas a:* la mesa baja.
 
 ### Zona 2 · La bolsa de clavos (Objetivo 2)
-1. Desde la mesa baja ves, justo encima, una **bolsa de clavos** que sobresale de una estantería colgando de **3 hilos deshilachados**.
-2. **Cortas los 3 hilos con agujas.**
+1. Desde la mesa baja ves, justo encima, una **bolsa de clavos** que sobresale de una estantería colgando de **2 hilos deshilachados**.
+2. **Cortas los 2 hilos con agujas.**
 3. La bolsa se vuelca: **lluvia de clavos** y montañita a tus pies.
 
 *Obtienes:* clavos ilimitados en el carcaj.
