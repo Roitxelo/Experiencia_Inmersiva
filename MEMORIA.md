@@ -24,6 +24,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 10 | 26/11/2026 | Prompt para Claude y ajuste del efecto de líquido | `docs/prompt_para_claude_cierre_fase_1.md` |
 | 11 | 26/11/2026 | Recorrido único propuesto por Claude | `docs/recorrido_propuesto_claude.md` |
 | 12 | 26/11/2026 | Decisiones de Roi sobre el recorrido y nuevas opciones (obstáculo de clavos, canicas con arco, péndulo) | `docs/recorrido_propuesto_claude.md` (revisión 1) |
+| 13 | 27/11/2026 | Regla-puente, cajonera-escalera y versión provisional final del flujo | `docs/flujo_provisional_final.md` |
 
 ---
 
@@ -210,4 +211,25 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 - Munición, inventario y número de saltos actualizados según lo decidido.
 
 **Pendiente:** que Roi elija el obstáculo de la zona 3 y la forma de disparar las canicas. Sigue sin ser el diseño final.
+
+---
+
+## Entrada 13 · 27/11/2026 · Regla-puente, peldaños y flujo provisional final
+
+**Participan:** Roi + Claude
+
+**Decisiones de Roi:**
+- Implementar dos ideas en lugar del láser:
+  1. Una prueba para **hacer caer una regla y formar un puente** (no un balancín que gana peso).
+  2. Subir **saltando por peldaños**, pero los peldaños **no pueden ser clavos o flechas** disparados por el jugador, porque no sería lógico que aguantasen su peso.
+- Pedir una versión provisional final del flujo del juego. Después Codex la revisará con Roi, se verificará y se cerrará como definitiva.
+
+**Propuesta de Claude** (`docs/flujo_provisional_final.md`):
+- **Regla-puente:** una regla de madera, de pie al otro lado de un hueco, frenada por una goma de borrar que hace de calzo. La aguja se clava en la goma sin moverla; un clavo la desplaza y la regla cae formando el puente.
+- **Cajonera-escalera:** cajones de apertura por presión. Cada clavo hace saltar un cajón, que sirve de peldaño real. Lo alto de la cajonera es el punto seguro frente al robot.
+- El puente de la zona 1 pasa a ser una **rampa de cartón** (solapa atada con hilo), para no repetir la regla que cae.
+- Flujo completo en 8 zonas (0–7), con reglas comunes, orden de recursos, ritmo, duración estimada (9,5–13,5 min) y recortes posibles.
+- Canicas: se mantiene la **flecha con dedal**, pendiente de que Roi la confirme.
+
+**Pendiente:** revisión con Codex de las dudas del apartado 9 del documento; luego, verificación de Roi y cierre como definitivo.
 

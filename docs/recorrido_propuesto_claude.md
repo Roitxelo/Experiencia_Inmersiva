@@ -3,6 +3,7 @@
 **Fecha:** 26/11/2026
 **Responde a:** [`prompt_para_claude_cierre_fase_1.md`](prompt_para_claude_cierre_fase_1.md), a partir de [`estructura_aprobada.md`](estructura_aprobada.md) y [`respuesta_roi_y_revision_codex_fase_1.md`](respuesta_roi_y_revision_codex_fase_1.md).
 **Estado:** propuesta para que Roi la revise y Codex la contraste. **No es el documento final de diseño.**
+**Actualización 27/11/2026:** este documento queda como historial. La versión vigente es [`flujo_provisional_final.md`](flujo_provisional_final.md).
 **Revisión 1 (26/11/2026, noche):** incorpora las respuestas de Roi a las 5 decisiones. Los cambios y las nuevas opciones están en el [apartado 11](#11-revisión-1--decisiones-de-roi-y-nuevas-opciones).
 
 Leyenda: **[Roi]** = ya decidido por Roi · **[Codex]** = recomendación de Codex que asumo · **[Claude]** = propuesta nueva mía.
