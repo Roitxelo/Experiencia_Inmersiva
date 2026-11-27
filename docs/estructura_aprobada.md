@@ -6,6 +6,8 @@
 
 **Respuesta posterior de Roi:** la primera munición será una aguja; propone clavos como segunda munición, obtenidos al romper con agujas los últimos hilos de una bolsa suspendida. También propuso una misión tutorial previa, un acceso a la bolsa mediante un puente, un robot con falso apagado y cortocircuito por agua, dos canicas que se lanzan para enlazar portales, un final que pulse el botón indirectamente y una ayuda de inspección al apuntar. El detalle y las dependencias se recogen en [`respuesta_roi_y_revision_codex_fase_1.md`](respuesta_roi_y_revision_codex_fase_1.md).
 
+**Aclaración de Roi del 27/11/2026:** el teletransporte es una habilidad que se obtiene con las dos canicas al final del recorrido. Antes se avanza mediante movimiento ordinario, rampa, puente y peldaños. Las referencias anteriores a teletransporte general eran propuestas de diseño que no forman parte de esta decisión.
+
 ## Visión
 
 El usuario aparece diminuto en un taller de inventor o aula de tecnología. La habitación cotidiana parece monumental. Una máquina que puede devolverle el tamaño normal es el destino. El interés está en aprender a usar objetos del taller, construir una herramienta y resolver obstáculos que reaccionan de forma visible a sus acciones. Duración orientativa: 10–12 minutos, pendiente de medir con jugadores.

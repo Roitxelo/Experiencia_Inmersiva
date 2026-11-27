@@ -8,6 +8,8 @@
 
 **Actualización posterior:** Roi descartó el dedal y eligió unir cada canica a la parte trasera de un clavo con chicle; también mantuvo los tres disparos en la cajonera. Fijó la regla de uso “cortar: aguja; pulsar: clavo; teletransporte: canica + clavo con chicle” y pidió repartir las acciones para evitar repetición. La aplicación de estas decisiones se encuentra en [`flujo_provisional_codex.md`](flujo_provisional_codex.md). Esta revisión conserva el estado previo para documentar el debate.
 
+**Corrección del 27/11/2026:** este análisis recomendó teletransporte para huecos y alturas, pero Roi ha aclarado que esa capacidad solo se desbloquea al enlazar las dos canicas al final. Esa recomendación no se aplica al flujo vigente. La versión corregida de Codex usa movimiento ordinario, rampa, puente y peldaños antes de las canicas.
+
 ## Valoración general
 
 El flujo conserva los cuatro objetivos aprobados y ofrece consecuencias visuales claras. La rampa enseña a cortar, la bolsa entrega clavos con un momento espectacular, el robot tiene dos estados y la plomada culmina las propiedades de ambas municiones. Los recursos principales se obtienen antes de necesitarse. La estimación declarada de 9,5–13,5 minutos cruza el objetivo de 10–12; el cumplimiento se debe medir con jugadores nuevos.

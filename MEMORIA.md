@@ -27,6 +27,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 13 | 27/11/2026 | Regla-puente, cajonera-escalera y versión provisional final del flujo | `docs/flujo_provisional_final.md` |
 | 14 | 27/11/2026 | Revisión técnica y lógica de Codex del flujo provisional de Claude | `docs/revision_codex_flujo_2026-11-27.md` |
 | 15 | 27/11/2026 | Decisiones de Roi sobre canicas y cajonera; flujo provisional de Codex | `docs/flujo_provisional_codex.md` |
+| 16 | 27/11/2026 | Corrección de la progresión del teletransporte | `docs/flujo_provisional_codex.md` |
 
 ---
 
@@ -262,4 +263,18 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Viabilidad y límites:** el orden de recursos es coherente y las acciones descritas pueden plantearse en React/WebXR. La estimación de 10–12 minutos no está validada: la tabla previa abarca 9,5–13,5 minutos y el arco, los tres cajones y las canicas pueden ampliar el tiempo. Hay que probar comodidad, puntería, texto, destinos de teletransporte y rendimiento en Meta Quest 3.
 
 **Pendiente:** verificación de Roi, contraste con Claude y elaboración del mapa medido y guion técnico. Esta versión sigue siendo provisional.
+
+---
+
+## Entrada 16 · 27/11/2026 · Corrección de la progresión del teletransporte
+
+**Participan:** Roi + Codex
+
+**Corrección de Roi:** el teletransporte se desbloquea al conseguir y enlazar las dos canicas, cerca del final. No debe estar disponible para salir de la caja, bajar la rampa, cruzar la regla ni subir los cajones.
+
+**Error de Codex:** la versión anterior introdujo teletransporte apuntado desde el inicio y lo usó para resolver huecos y alturas. También añadió un canal de cables, cambió tres hilos por dos y sustituyó el calzo de la regla por un cierre sin aprobación. Esas desviaciones no respondían a las decisiones verificadas.
+
+**Trabajo realizado:** se reescribió `docs/flujo_provisional_codex.md` a partir del flujo de Claude y las entradas 11–15. Antes de las canicas hay movimiento ordinario, descenso por rampa, cruce caminando de la regla y subida saltando por tres cajones. Se mantiene un solo salto espacial al activar las dos canicas. Se restauran los tres hilos de la bolsa y el calzo de la regla como propuesta provisional de Claude. Se marcaron como obsoletas las recomendaciones de teletransporte temprano en `docs/revision_codex_flujo_2026-11-27.md` y `docs/estructura_aprobada.md`.
+
+**Pendiente:** Roi y Claude deben verificar el flujo corregido, especialmente cómo se llega físicamente al inicio de la regla-puente y los controles cómodos para caminar y saltar en Quest 3. No se ha probado en el visor.
 
