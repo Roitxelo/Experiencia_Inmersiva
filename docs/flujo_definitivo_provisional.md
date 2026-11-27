@@ -2,7 +2,7 @@
 
 **Fecha:** 27/11/2026
 **Redacta:** Claude, a partir de su [`flujo_provisional_final.md`](flujo_provisional_final.md), el [`flujo_provisional_codex.md`](flujo_provisional_codex.md) corregido, la [`revision_codex_flujo_2026-11-27.md`](revision_codex_flujo_2026-11-27.md) y las decisiones de Roi en `MEMORIA.md` (entradas 12–17).
-**Actualización 27/11/2026:** Roi ha respondido a las 3 decisiones del apartado 8 (aguja con hilo solo al principio, recortes aceptados). Después descartó la aguja de tejer por demasiado grande; la vara del arco propuesta es una **brida**, pendiente de su confirmación.
+**Actualización 27/11/2026:** Roi ha respondido a las 3 decisiones del apartado 8 (aguja con hilo solo al principio, recortes aceptados). Después descartó la aguja de tejer por demasiado grande; Finalmente Roi eligió como arco provisional un **clip** que el jugador abre con las dos manos.
 **Estado:** **definitiva provisional**. Roi la revisa, la modifica si quiere y se cierra como definitiva. Después vendrán el mapa con medidas, la lista de objetos y el guion técnico.
 
 Leyenda: **[Roi]** decidido por Roi · **[Codex]** aportación de Codex que se adopta · **[Nuevo]** propuesta de Claude en esta versión · **[Pendiente]** falta que Roi lo confirme.
@@ -73,8 +73,9 @@ La máquina se ve desde las zonas 0, 2, 4 y 6.
 - **Hace:** aprende a mirar, caminar, apuntar, inspeccionar y agarrar. Encuentra, a pocos pasos y en el suelo, tres cosas:
   - un **acerico** con **agujas** (munición),
   - un **ovillo de hilo** grande (cuerda del arco y hilo para tirar en la zona 1; se queda allí),
-  - una **brida** de plástico (de las de sujetar cables) caída del banco de trabajo, junto al costurero. Mide unos 10 cm: a tu tamaño, como un arco de 1,5 m. Es flexible y vuelve a su forma. **[Pendiente: confirmación de Roi]**
-- **Combina:** brida + hilo = **arco**. La brida se dobla y el hilo hace de cuerda.
+  - un **clip** grande de oficina caído del banco de trabajo, junto al costurero. **[Roi: arco provisional]**
+- **Abrir el clip (interacción de tutorial) [Roi]:** el jugador agarra **cada punta del clip con una mano** y las **arrastra hacia lados opuestos**. El clip se va abriendo y toma **forma de arco**. Respuesta: crujido metálico, vibración en los dos mandos y un contorno que muestra la forma final a la que hay que llegar. Si suelta antes de tiempo, el clip se queda a medio abrir y puede seguir. Este gesto enseña a usar **las dos manos a la vez**, que es justo lo que pide el arco después.
+- **Combina:** clip abierto + hilo = **arco**. El hilo se ata a los dos extremos y hace de cuerda.
 - **Obtiene:** arco y agujas.
 
 ### Zona 1 · La rampa del cartón — tirar del hilo [Roi + Nuevo]
@@ -183,15 +184,7 @@ La mecánica nueva de tirar añade algo de tiempo; el extremo alto pasa de los 1
 
 ## 8. Decisiones de Roi para cerrar
 
-1. **Objeto flexible del arco:** Roi descartó la ballena (poco reconocible) y la aguja de tejer (demasiado grande). No tiene que ser de costura, pero sí tener sentido en el taller y estar en el suelo de la zona inicial. Opciones (escala: el jugador mide unos 12 cm, así que todo se ve unas 15 veces más grande):
-
-   | Opción | Tamaño real → a tu escala | A favor | En contra |
-   |---|---|---|---|
-   | **Brida de plástico ⭐** | 10 cm → arco de ~1,5 m | Muy reconocible en un taller, flexible y vuelve a su forma como un arco de verdad. | Ninguno importante. |
-   | Regla de plástico de 15 cm | 15 cm → ~2,2 m | Muy reconocible. | Demasiado larga; y ya hay otra regla en la zona 3. |
-   | Hoja de segueta (sierra de marquetería) | 13 cm → ~1,9 m | Es de taller y muy elástica. | Menos conocida y tiene dientes. |
-
-   Descartado: un **clip desdoblado**. Se dobla pero se queda torcido, no vuelve a su forma como un arco. **[Pendiente: Roi confirma la brida]**
+1. **Arco:** un **clip** que el jugador abre arrastrando cada punta hacia un lado hasta darle forma de arco. **[Roi, provisional]** Se descartaron la ballena (poco reconocible), la aguja de tejer (demasiado grande) y la brida.
 2. **Aguja con hilo:** solo al principio, porque el ovillo está ahí y no se transporta. La canica 2 se baja **cortando** su hilo.
 3. **Recortes de tiempo:** el orden del apartado 7 vale por ahora; si hace falta, se recorta más tarde.
 

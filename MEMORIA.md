@@ -31,6 +31,7 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 | 17 | 27/11/2026 | Inicio en costurero, rampa tirando del hilo y versión definitiva provisional del flujo | `docs/flujo_definitivo_provisional.md` |
 | 18 | 27/11/2026 | Arco con aguja de tejer, aguja con hilo solo al inicio y recortes aceptados | `docs/flujo_definitivo_provisional.md` |
 | 19 | 27/11/2026 | Vara del arco: brida en lugar de aguja de tejer (pendiente de confirmar) | `docs/flujo_definitivo_provisional.md` |
+| 20 | 27/11/2026 | Arco provisional: clip que se abre con las dos manos | `docs/flujo_definitivo_provisional.md` |
 
 ---
 
@@ -327,4 +328,16 @@ Registro paso a paso de todo el trabajo. Cada entrada indica fecha, quién parti
 **Propuesta de Claude:** una **brida de plástico** de 10 cm (a la escala del jugador, de unos 12 cm, equivale a un arco de 1,5 m). Es reconocible, flexible y recupera su forma. Alternativas: regla de plástico de 15 cm (demasiado larga y repite la regla de la zona 3) y hoja de segueta (menos conocida, con dientes). Se descarta el clip desdoblado porque no vuelve a su forma.
 
 **Pendiente:** que Roi confirme la brida.
+
+---
+
+## Entrada 20 · 27/11/2026 · Arco provisional con un clip
+
+**Participan:** Roi + Claude
+
+**Decisión de Roi:** el arco provisional será un **clip** que el jugador abre arrastrando cada punta hacia un lado hasta darle forma de arco. Sustituye a la brida propuesta en la entrada 19.
+
+**Trabajo realizado:** Claude actualizó la zona 0 de `docs/flujo_definitivo_provisional.md` con la interacción del tutorial. El jugador agarra cada punta con una mano y las separa; un contorno muestra la forma final, y hay sonido metálico y vibración en los dos mandos. Si suelta antes, el clip se queda a medio abrir y puede continuar. El gesto enseña a usar las dos manos a la vez, como después el arco. Después, clip abierto + hilo = arco.
+
+**Pendiente:** que Roi revise y cierre el flujo como definitivo.
 
